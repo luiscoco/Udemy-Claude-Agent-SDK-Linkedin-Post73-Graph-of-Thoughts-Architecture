@@ -1,0 +1,9 @@
+{
+  "goal": "Improve urban mobility",
+  "budget": 5,
+  "costs": {
+    "bus_priority": 3,
+    "bike_lane": 2,
+    "parking_fee": 1
+  }
+}

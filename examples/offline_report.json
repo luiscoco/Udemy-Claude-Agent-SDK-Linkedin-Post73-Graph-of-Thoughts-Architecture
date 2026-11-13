@@ -1,0 +1,54 @@
+{
+  "lesson": 72,
+  "application": "Mergeable Mobility Proposal Graph",
+  "mode": "offline_teaching_fixture",
+  "status": "complete",
+  "result": {
+    "nodes": {
+      "bus_priority": {
+        "cost": 3,
+        "proposers": [
+          0
+        ]
+      },
+      "bike_lane": {
+        "cost": 2,
+        "proposers": [
+          0,
+          1
+        ]
+      },
+      "parking_fee": {
+        "cost": 1,
+        "proposers": [
+          1
+        ]
+      }
+    },
+    "edges": [
+      {
+        "from": "proposal_0",
+        "to": "bus_priority"
+      },
+      {
+        "from": "proposal_0",
+        "to": "bike_lane"
+      },
+      {
+        "from": "proposal_1",
+        "to": "bike_lane"
+      },
+      {
+        "from": "proposal_1",
+        "to": "parking_fee"
+      }
+    ],
+    "selected": [
+      "bike_lane",
+      "parking_fee"
+    ],
+    "cost": 3,
+    "merge_rule": "Identical action IDs share a node; distinct ideas are not silently equated."
+  },
+  "measured_cost_usd": null
+}

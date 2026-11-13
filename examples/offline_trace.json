@@ -1,0 +1,26 @@
+[
+  {
+    "sequence": 1,
+    "kind": "stage_started",
+    "stage": "transit",
+    "mode": "offline_fixture"
+  },
+  {
+    "sequence": 2,
+    "kind": "stage_started",
+    "stage": "access",
+    "mode": "offline_fixture"
+  },
+  {
+    "sequence": 3,
+    "kind": "stage_finished",
+    "stage": "transit",
+    "elapsed_seconds": 6e-05
+  },
+  {
+    "sequence": 4,
+    "kind": "stage_finished",
+    "stage": "access",
+    "elapsed_seconds": 8e-05
+  }
+]
